@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t vpleft/lavalink-rpi .
+docker build -t lavalink-rpi .
 

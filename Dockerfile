@@ -13,7 +13,7 @@ RUN curl -L https://cdn.azul.com/zulu-embedded/bin/zulu13.46.15-ca-jre13.0.10-li
     | tar --extract --gzip
 RUN mv ./zulu* ./zulu-13-aarch64
 
-ENV JAVA_HOME=/usr/lib/jvm/zulu13.46.15-ca-jre13.0.10-linux_aarch64/
+ENV JAVA_HOME=/usr/lib/jvm/zulu-13-aarch64/
 
 
 # Get latest Lavalink

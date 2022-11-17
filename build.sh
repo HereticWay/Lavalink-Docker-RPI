@@ -1,7 +1,7 @@
 #!/bin/bash
 
-LONG_VERSION="1.0"
-SHORT_VERSION="1"
+LONG_VERSION="3.6.2"
+SHORT_VERSION="3"
 
 docker build -t lavalink-rpi .
 docker tag lavalink-rpi vpleft/lavalink-rpi:latest

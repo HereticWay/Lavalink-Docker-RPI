@@ -9,7 +9,7 @@ RUN apt-get update \
 
 # Get Azul Zulu Java 13
 WORKDIR /usr/lib/jvm
-RUN curl -L https://cdn.azul.com/zulu-embedded/bin/zulu13.46.15-ca-jre13.0.10-linux_aarch64.tar.gz \
+RUN curl -L https://cdn.azul.com/zulu/bin/zulu13.52.15-ca-jdk13.0.13-linux_aarch64.tar.gz \
     | tar --extract --gzip
 RUN mv ./zulu* ./zulu-13-aarch64
 
